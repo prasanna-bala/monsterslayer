@@ -1,0 +1,20 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "main.scss",
+  "type": "module",
+  "directories": {
+    "test": "module"
+  },
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./sass/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "nyc": "^15.1.0"
+  }
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .header{
+    font-size: 30px;
+    position: relative;
+    align-content: center;
+    top :100px;
+     
+    text-align: center;
+    text-align: center;
+  }
+   
+  .row {
+    display: flex;
+    position: fixed;
+    left:   850px;
+    align-items: center;
+    top: 300px;
+    background-color:#bbb;
+  }
+  
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+   #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+   /*end of index */

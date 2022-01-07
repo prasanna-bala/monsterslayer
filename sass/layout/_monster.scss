@@ -1,0 +1,117 @@
+
+ body {
+    min-height: 100vh;
+      
+    background-size: cover;
+  }
+  .container {
+      width: 100%;
+    margin: 0;
+    padding: 0;   
+  }
+  .players {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial;
+    text-transform: uppercase;
+  }
+  .progress {
+    width: 40%;
+    background-color: #808080;
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+  .player_bar,
+  .monster_bar{
+    width: 100%;
+    height: 25px;
+    background: green;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition-duration: 0s;
+    transition-timing-function:linear;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center; 
+  }
+  .skills {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    background: #eee7e7;
+    border: 1px solid rgb(248, 239, 239);
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px white;
+  }
+  .show {
+    display: none;
+  }
+  .start_game {
+    background: #8EFEAF;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px white;
+    
+  }
+  .attack {
+    background: #FC675C;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+  }
+  .special_attack {
+    background: #FBB83B;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+  }
+  .heal {
+    background: #8EFEAF;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+  }
+  .give_up {
+    background: #7facda;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px white;
+  }
+  .show {
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .show:last-child {
+    margin-right: 0;
+  }
+  .my_logs, .monster_logs {
+    width: 50%;
+    min-height: 5vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8EFEAF;
+    border-radius: 5px;
+    font-family: "Verdana";
+  }
+  .monster_logs {
+    background: #FC675C;
+  }
+  
